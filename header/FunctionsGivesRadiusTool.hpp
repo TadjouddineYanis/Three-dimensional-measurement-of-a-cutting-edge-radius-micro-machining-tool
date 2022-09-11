@@ -1,0 +1,10 @@
+void print_vector(std::vector<double> vect);
+std::vector<double> linspace (double, double, double);
+std::vector<double> robest_line_fitting(std::vector<double> x, std::vector<double> y, short seuil);
+std::vector<double> finite_difference(std::vector<double> x, std::vector<double> y);
+short check_linear_part(std::vector<double> diff, int, double);
+std::vector<double> extract_points_linear_y(std::vector<double> diff, std::vector<double> y, short, short, short, short);
+std::vector<double> extract_points_linear_x(std::vector<double> diff, std::vector<double> x, short, short, short, short);
+std::vector<double> equation_droite(std::vector<double> ab, std::vector<double> x);
+std::vector<double> radius_equation(std::vector<double> x, double);
+std::vector<double> intersection(double, double, double);
