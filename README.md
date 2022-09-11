@@ -1,5 +1,4 @@
 # Three-dimensional-measurement-of-a-cutting-edge-radius-micro-machining-tool
-#The following algorithms represent a 3D measurement solution of the cutting radius of a micro machining tool. The programs are developed in C++
 
 The algorithms implemented make it possible to find the radius of the cutting edge of a micro machining tool. The programs have been worked on only one type of tool and are implemented in C++/PCL.
 
